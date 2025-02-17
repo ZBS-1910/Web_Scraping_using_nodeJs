@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+    <link rel="stylesheet" href="./style.css">
+</head><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Web Scraper</h1>
+        <p>Enter a website URL to extract paragraphs from it.</p>
+        
+        <form id="scrapeForm">
+            <input type="text" id="url" name="url" placeholder="Enter Website URL..." required>
+            <button type="submit">Scrape</button>
+        </form>
+
+        <div id="loading" class="hidden">🔄 Scraping in progress...</div>
+        <div id="results"></div>
+
+        <!-- Dark Mode Toggle -->
+        <div class="dark-mode-toggle">
+            <label>
+                <input type="checkbox" id="darkModeToggle"> 🌙 Dark Mode
+            </label>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>

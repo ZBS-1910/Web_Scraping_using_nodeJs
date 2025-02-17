@@ -1,19 +1,19 @@
 {
-  "name": "webscraping",
+  "name": "web-scraping",
   "version": "1.0.0",
-  "description": "This project is a **web scraper** built using **Node.js**, **Express.js**, **Axios**, and **Cheerio**. It fetches text data (paragraphs) from a given website and presents it in a user-friendly way. The application includes a simple front-end and API for scraping content dynamically.",
+  "description": "A web scraping project using Node.js",
   "main": "server.js",
   "type": "module",
-  "dependencies": {
-    "axios": "^1.7.9",
-    "cheerio": "^1.0.0",
-    "cors": "^2.8.5",
-    "express": "^4.21.2"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC"
