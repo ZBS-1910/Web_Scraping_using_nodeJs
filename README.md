@@ -2,6 +2,8 @@
 
 ## 📌 Project Overview
 This project is a **web scraper** built using **Node.js**, **Express.js**, **Axios**, and **Cheerio**. It fetches text data (paragraphs) from a given website and presents it in a user-friendly way. The application includes a simple front-end and API for scraping content dynamically.
+## Demo site
+https://www.geeksforgeeks.org/gate-cs-notes-gq/
 
 ## 🚀 Features
 - Fetches content (paragraphs) from any publicly accessible website.
@@ -23,7 +25,7 @@ This project is a **web scraper** built using **Node.js**, **Express.js**, **Axi
 │── public/
 │   ├── styles.css     # CSS file for styling
 │   ├── script.js      # JavaScript for handling scraping requests
-│── index.html         # Frontend HTML file
+|   │── index.html         # Frontend HTML file
 │── server.js         # Express server
 │── package.json      # Node.js dependencies
 │── package-lock.json # Auto-generated dependency lock file
